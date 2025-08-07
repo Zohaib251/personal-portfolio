@@ -1,90 +1,83 @@
-# Portfolio Website
+# Zohaib Ali – Portfolio
+<p align="center"> <a href="https://zohaib-portfolio-eta.vercel.app/" target="_blank"> <img src="https://img.shields.io/badge/Live%20Demo-Visit-blue?style=for-the-badge" alt="Live Demo"> </a> <a href="https://react.dev/" target="_blank"> <img src="https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=white" alt="React"> </a> <a href="https://www.typescriptlang.org/" target="_blank"> <img src="https://img.shields.io/badge/TypeScript-4-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"> </a> <a href="https://tailwindcss.com/" target="_blank"> <img src="https://img.shields.io/badge/TailwindCSS-3-38B2AC?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="TailwindCSS"> </a> <a href="https://vitejs.dev/" target="_blank"> <img src="https://img.shields.io/badge/Vite-4-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite"> </a> <a href="https://vercel.com/" target="_blank"> <img src="https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel"> </a> </p>
 
-A modern, responsive portfolio website built with React, TypeScript, and Tailwind CSS.
+## 📖 Description
+A modern, responsive, and animated personal portfolio website built with **React (TypeScript)** and **Vite**.  
+It showcases my **projects, skills, education, and experience**, with a functional contact form powered by **EmailJS** and protected with **Google reCAPTCHA**.
 
-## Features
+Live Demo: [https://zohaib-portfolio-eta.vercel.app/](https://zohaib-portfolio-eta.vercel.app/)
 
-- Responsive design
-- Contact form with email functionality
-- Smooth animations with Framer Motion
-- Modern UI/UX design
+---
 
-## Setup Instructions
+## ✨ Features
+- Responsive design for all devices
+- Fast loading with Vite
+- Smooth animations using Framer Motion
+- Downloadable CV
+- Contact form with EmailJS
+- Google reCAPTCHA for spam prevention
+- Built with TypeScript for reliable code
 
-### 1. Install Dependencies
+---
+
+## 🛠 Tech Stack
+- **Frontend:** React 18, TypeScript, Vite
+- **Styling:** TailwindCSS
+- **Animations:** Framer Motion
+- **Forms:** EmailJS, Google reCAPTCHA
+- **Deployment:** Vercel
+
+---
+
+## 📂 Project Structure
+```
+portfolio/
+├── public/            # Public assets (favicon, CV, images)
+├── src/
+│   ├── components/    # Navbar, Footer, Buttons, etc.
+│   ├── sections/      # Hero, About, Experience, Education, Skills, Contact
+│   ├── image/         # Images and graphics
+│   ├── App.tsx        # Main app component
+│   ├── main.tsx       # Entry point
+│   └── styles/        # Tailwind and global styles
+├── index.html         # HTML template
+├── package.json
+└── README.md
+```
+
+---
+
+## 📦 Installation
 ```bash
+git clone https://github.com/Zohaib251/personal-portfolio.git
+cd personal-portfolio
 npm install
 ```
 
-### 2. Gmail App Password Setup
+---
 
-To enable the contact form email functionality, you need to set up a Gmail App Password:
-
-1. **Enable 2-Factor Authentication** on your Gmail account
-2. Go to your [Google Account settings](https://myaccount.google.com/)
-3. Navigate to **Security** → **2-Step Verification**
-4. Scroll down to **App passwords**
-5. Generate a new app password for "Mail"
-6. Copy the 16-character password
-
-### 3. Environment Configuration
-
-1. Open the `.env` file in the root directory
-2. Replace `your_gmail_app_password_here` with your actual Gmail app password:
-   ```
-   GMAIL_APP_PASSWORD=your_actual_16_character_password
-   ```
-
-### 4. Running the Application
-
-#### Development Mode (Frontend + Backend)
-```bash
-npm run dev:full
-```
-
-This will start both:
-- Frontend (Vite) on http://localhost:5173
-- Backend (Express) on http://localhost:3001
-
-#### Frontend Only
+## 🚀 Run Locally
 ```bash
 npm run dev
 ```
+Site will be available at:  
+[http://localhost:5173](http://localhost:5173)
 
-#### Backend Only
-```bash
-npm run dev:server
-```
+---
 
-### 5. Testing the Contact Form
+## 📤 Deployment
+- Deployed on **Vercel**
+- Connected to GitHub for automatic deployments on push
 
-1. Fill out the contact form on your website
-2. Submit the form
-3. Check your Gmail inbox for the email notification
+---
 
-## Project Structure
+## 👨‍💻 Author
+**Zohaib Ali**
+- Website: [https://zohaib-portfolio-eta.vercel.app/](https://zohaib-portfolio-eta.vercel.app/)
+- GitHub: [https://github.com/Zohaib251](https://github.com/Zohaib251)
 
-```
-├── src/
-│   ├── components/     # Reusable components
-│   ├── sections/       # Page sections
-│   └── ...
-├── server/
-│   └── index.js        # Express server with Nodemailer
-├── .env                # Environment variables
-└── package.json
-```
+---
 
-## Technologies Used
-
-- **Frontend**: React, TypeScript, Tailwind CSS, Framer Motion
-- **Backend**: Node.js, Express, Nodemailer
-- **Build Tool**: Vite
-- **Email Service**: Gmail SMTP
-
-## Deployment Notes
-
-When deploying to production:
-1. Update CORS origins in `server/index.js`
-2. Set environment variables on your hosting platform
-3. Ensure your Gmail app password is securely stored
+## 📝 License
+Licensed under the MIT License  
+[https://opensource.org/licenses/MIT](https://opensource.org/licenses/MIT)
