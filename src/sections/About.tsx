@@ -28,11 +28,7 @@ const About = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-           {/*  <img
-              src="https://images.pexels.com/photos/2102416/pexels-photo-2102416.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-              alt="John Doe working"
-              className="rounded-lg shadow-xl w-full"
-            /> */}
+            
           </motion.div>}
 
           <motion.div 
