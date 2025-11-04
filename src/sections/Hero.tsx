@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="min-h-screen flex items-center relative overflow-hidden"
+      className="min-h-screen flex items-center relative"
     >
       <div className="absolute top-20 -left-32 w-96 h-96 bg-accent/20 rounded-full filter blur-3xl opacity-70 animate-pulse-slow"></div>
       <div className="absolute -bottom-40 -right-32 w-96 h-96 bg-secondary/20 rounded-full filter blur-3xl opacity-70 animate-pulse-slow"></div>
